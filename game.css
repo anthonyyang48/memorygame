@@ -1,14 +1,26 @@
+h1 {
+    text-align: center;
+    border-style: dotted;
+    font-style: oblique;
+}
+
+body{
+    background-image: url("https://media.giphy.com/media/12zxWWVMXNDOy4/giphy.gif");
+}
+
 #game-board {
     list-style: none;
     padding: 0;
     width: 500px;
+    position: absolute;
+    left: 450px;
 }
 
 .tile {
     width: 100px;
     height: 100px;
-    background-color: blue;
     display: inline-block;
+    background-color: blue;
     margin: 5px;
     color: blue;
 }
@@ -16,4 +28,5 @@
 .selected {
     background-color: green;
     color: white;
+    text-align: center;
 }
